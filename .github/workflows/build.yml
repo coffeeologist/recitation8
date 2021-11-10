@@ -16,3 +16,6 @@ jobs:
       run: make docker-build
     - name: Run tests
       run: make docker-runtest-all
+    - name: python-flake8
+      uses: julianwachholz/flake8-action@v2.0.2
+
